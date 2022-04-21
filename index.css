@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    
+    box-sizing: border-box;
+}
+
+.formulario {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    border-radius: solid 2px;
+    display: block;
+}
+
+legend {
+    font-family: sans-serif;
+    color: darkviolet;
+    margin-left: 470px;
+    margin-top:  20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.formulario__input-error {
+    font-size: small;
+    margin-bottom: 20px;
+    color: red;
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aqua;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.button__limpiar {
+    margin-left: 375px;
+    background-color:lime;
+    font-weight: bold;
+}
+
+.button__comparar {
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color:lime;
+    font-weight: bold;
+}
